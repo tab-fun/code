@@ -1,0 +1,52 @@
+<ConsoleWindow title="贪吃蛇__M2版" width="60" height="30" color="20">
+    <MainMenu title="进化蝴蝶：主菜单" x="12" y="4" width="36" height="19" color="112" isHaveBorder="1" borderColor="32">
+        <MenuItem x="18" y="6" width="24" height="3" color="112" isHaveBorder="0" borderColor="128">继续游戏</MenuItem>
+        <MenuItem x="18" y="9" width="24" height="3" color="112" isHaveBorder="0" borderColor="128">开始游戏</MenuItem>
+        <MenuItem x="18" y="12" width="24" height="3" color="112" isHaveBorder="0" borderColor="128">查看成就</MenuItem>
+        <MenuItem x="18" y="15" width="24" height="3" color="112" isHaveBorder="0" borderColor="128">游戏设置</MenuItem>
+        <MenuItem x="18" y="18" width="24" height="3" color="112" isHaveBorder="0" borderColor="128">游戏帮助</MenuItem>
+        <MenuItem x="18" y="21" width="24" height="3" color="112" isHaveBorder="0" borderColor="128">退出游戏</MenuItem>
+    </MainMenu>
+    <LookAchievement title="进化蝴蝶：查看成就" x="2" y="3" width="56" height="23" color="112" isHaveBorder="1" borderColor="32" />
+    <GameSetting title="进化蝴蝶：游戏设置" x="12" y="6" width="36" height="16" color="112" isHaveBorder="1" borderColor="32">
+        <MenuItem x="18" y="8" width="24" height="3">设置难度</MenuItem>
+        <MenuItem x="18" y="11" width="24" height="3">设置存档</MenuItem>
+    </GameSetting>
+    <SettingDifficulty title="进化蝴蝶：设置难度" x="12" y="6" width="36" height="16" color="112" isHaveBorder="1" borderColor="32">
+        <MenuItem x="18" y="8" width="24" height="3">简简单单</MenuItem>
+        <MenuItem x="18" y="11" width="24" height="3">普普通通</MenuItem>
+        <MenuItem x="18" y="14" width="24" height="3">困难之极</MenuItem>
+    </SettingDifficulty>
+    <SettingArchives title="进化蝴蝶：设置存档" x="12" y="6" width="36" height="16" color="112" isHaveBorder="1" borderColor="32">
+        <MenuItem x="18" y="8" width="24" height="3">修改存档名字</MenuItem>
+        <MenuItem x="18" y="11" width="24" height="3">当前存档归零</MenuItem>
+        <MenuItem x="18" y="14" width="24" height="3">所有存档归零</MenuItem>
+    </SettingArchives>
+    <GameHelp title="进化蝴蝶：游戏帮助" x="12" y="6" width="36" height="16" color="112" isHaveBorder="1" borderColor="32">
+        <MenuItem x="18" y="8" width="24" height="3">游戏玩法</MenuItem>
+        <MenuItem x="18" y="11" width="24" height="3">关于游戏</MenuItem>
+        <MenuItem x="18" y="14" width="24" height="3">向作者反馈</MenuItem>
+    </GameHelp>
+    <Feedback title="进化蝴蝶：向作者反馈" x="12" y="4" width="36" height="22" color="112" isHaveBorder="1" borderColor="32">
+        <MenuItem x="18" y="6" width="24" height="3">留邮箱地址</MenuItem>
+        <MenuItem x="18" y="9" width="24" height="3">游戏不好玩儿</MenuItem>
+        <MenuItem x="18" y="12" width="24" height="3">不稳定甚至崩溃</MenuItem>
+        <MenuItem x="18" y="15" width="24" height="3">只为游戏点个赞！</MenuItem>
+        <MenuItem x="18" y="18" width="24" height="3">只为向作者咆哮！</MenuItem>
+        <MenuItem x="18" y="21" width="24" height="3">提交反馈</MenuItem>
+    </Feedback>
+    <HowToPlay title="进化蝴蝶：游戏玩法" x="2" y="4" width="56" height="23" color="112" isHaveBorder="1" borderColor="32">游戏玩法|键盘控制: 上下左右键或者是WSAD键控制方向。|结束条件: “蛇”碰到游戏边界或碰到自己|游戏得分: 每吃到一个“*”得一分|怎么玩: 方向键控制着“蛇”走向“*”即可得分|存档: 自动存档、手动删档</HowToPlay>
+    <AboutGame title="进化蝴蝶：关于游戏" x="2" y="3" width="56" height="26" color="112" isHaveBorder="1" borderColor="32">关于游戏|作者: 玩弄代码或被代码玩弄的Z|误解: 作者并没有在这款游戏上下功夫|特色: 游戏设计、架构以及美观的UI|功能: 控制台UI系统、XML文件IO、C#类库发送邮件|设计模式: 用C++实现了MVC、代理、通知等设计模式|游戏结构: MVC模式设计骨架，通过多继承丰富其内容|不足之处: 代码复用度不高、指针滥用、对象管理混乱</AboutGame>
+    <ModificationArchivesName title="进化蝴蝶：修改存档名字" x="12" y="6" width="36" height="16" color="112" isHaveBorder="1" borderColor="32" />
+    <leaveTheEmailAddress title="进化蝴蝶：留邮箱地址" x="5" y="7" width="50" height="12" color="112" isHaveBorder="1" borderColor="32" />
+    <MainGameView x="0" y="0" width="110" height="40" color="0">
+        <GameItem x="0" y="0" width="80" height="40" color="112" isHaveBorder="0" borderColor="32">游戏窗口视图</GameItem>
+    </MainGameView>
+</ConsoleWindow>
+<Player>
+    <Archives name="西哥玩游戏" userEmailAddress="1" archivesPath="Archives0.xml" progress="1" difficulty="0" x="40" y="20" width="2" height="1" sceneID="52685" score="2" tips="孵化|您得到一个孵化卵~|再得两分就能孵化出幼虫来！" time="23" lookAchievements="孵化" lookTime="248" lookScore="26">
+        <playerItem backgroundFillColor="52685" fillTextString="" x="50" y="21" width="2" height="1" type="-842150451" direction="1" ammunitionVecPath="playerAmmunition.vec" currentX="57" currentY="35" currentPlayerX="2" currentPlayerY="16" />
+    </Archives>
+    <Archives name="西哥玩游戏" userEmailAddress="" archivesPath="Archives1.xml" difficulty="1" progress="0" lookAchievements="小蛇机巧" lookTime="9" lookScore="9" />
+    <Archives name="西哥玩游戏" userEmailAddress="" archivesPath="Archives2.xml" difficulty="2" progress="0" lookAchievements="幼蛇柔弱" lookTime="3" lookScore="3" />
+</Player>

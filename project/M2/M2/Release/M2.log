@@ -1,0 +1,97 @@
+﻿cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+  stdafx.cpp
+c:\外来文件\项目文件\一些小程序\m2\m2\Others.h(34): warning C4005: “GAME_STATE_RUN”: 宏重定义
+  c:\外来文件\项目文件\一些小程序\m2\m2\Others.h(33): note: 参见“GAME_STATE_RUN”的前一个定义
+c:\外来文件\项目文件\一些小程序\m2\m2\Others.h(58): warning C4005: “String_”: 宏重定义
+  c:\外来文件\项目文件\一些小程序\m2\m2\Others.h(10): note: 参见“String_”的前一个定义
+c:\外来文件\项目文件\一些小程序\m2\m2\WindowDataSourceInterface.h(5): warning C4099: “M2::CWindowData”: 类型名称以前使用“struct”现在使用的是“class”
+  c:\外来文件\项目文件\一些小程序\m2\m2\WindowData.h(6): note: 参见“M2::CWindowData”的声明
+c:\外来文件\项目文件\一些小程序\m2\m2\Controller.h(7): warning C4099: “M2::CData”: 类型名称以前使用“struct”现在使用的是“class”
+  c:\外来文件\项目文件\一些小程序\m2\m2\Data.h(7): note: 参见“M2::CData”的声明
+c:\外来文件\项目文件\一些小程序\m2\m2\MenuController.h(13): warning C4099: “M2::CData”: 类型名称以前使用“struct”现在使用的是“class”
+  c:\外来文件\项目文件\一些小程序\m2\m2\Controller.h(7): note: 参见“M2::CData”的声明
+c:\外来文件\项目文件\一些小程序\m2\m2\MainController.h(10): warning C4099: “M2::CWindowData”: 类型名称以前使用“struct”现在使用的是“class”
+  c:\外来文件\项目文件\一些小程序\m2\m2\WindowDataSourceInterface.h(5): note: 参见“M2::CWindowData”的声明
+cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+  Controller.cpp
+  Data.cpp
+  EventInterface.cpp
+EventInterface.cpp(10): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+  GameController.cpp
+GameController.cpp(298): warning C4805: “==”: 在操作中将类型“const BOOL”与类型“bool”混合不安全
+  GameData.cpp
+GameData.cpp(190): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+  GameItemView.cpp
+GameItemView.cpp(25): warning C4267: “=”: 从“size_t”转换到“SHORT”，可能丢失数据
+  GameSceneView.cpp
+GameSceneView.cpp(145): warning C4101: “written”: 未引用的局部变量
+  GameView.cpp
+GameView.cpp(185): warning C4267: “=”: 从“size_t”转换到“SHORT”，可能丢失数据
+  M2.cpp
+  MainController.cpp
+MainController.cpp(83): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+  MenuController.cpp
+MenuController.cpp(167): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+MenuController.cpp(182): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+MenuController.cpp(210): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+MenuController.cpp(239): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+MenuController.cpp(286): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+MenuController.cpp(315): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+MenuController.cpp(331): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+MenuController.cpp(348): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+MenuController.cpp(408): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+MenuController.cpp(424): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+MenuController.cpp(448): warning C4805: “==”: 在操作中将类型“const BOOL”与类型“bool”混合不安全
+  MenuData.cpp
+  MenuItemView.cpp
+MenuItemView.cpp(21): warning C4267: “=”: 从“size_t”转换到“SHORT”，可能丢失数据
+  MenuView.cpp
+MenuView.cpp(79): warning C4267: “=”: 从“size_t”转换到“SHORT”，可能丢失数据
+MenuView.cpp(197): warning C4267: “=”: 从“size_t”转换到“SHORT”，可能丢失数据
+MenuView.cpp(388): warning C4267: “=”: 从“size_t”转换到“SHORT”，可能丢失数据
+MenuView.cpp(395): warning C4267: “=”: 从“size_t”转换到“SHORT”，可能丢失数据
+  Music.cpp
+  Others.cpp
+  WindowData.cpp
+  tinystr.cpp
+  tinyxml.cpp
+xml\tinyxml.cpp(944): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+xml\tinyxml.cpp(1077): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+xml\tinyxml.cpp(1224): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+xml\tinyxml.cpp(1231): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+  tinyxmlerror.cpp
+  正在生成代码...
+  正在编译...
+  tinyxmlparser.cpp
+  ZException.cpp
+ZException.cpp(21): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+ZException.cpp(22): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+ZException.cpp(29): warning C4474: sprintf: 格式字符串中传递的参数太多
+  ZException.cpp(29): note: 占位符和其参数预计 6 可变参数，但提供的却是 7 参数
+ZException.cpp(29): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+ZException.cpp(32): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+ZException.cpp(36): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+  ZObject.cpp
+  ZView.cpp
+  ZWindow.cpp
+ZWindow.cpp(62): warning C4267: “=”: 从“size_t”转换到“SHORT”，可能丢失数据
+ZWindow.cpp(63): warning C4244: “=”: 从“double”转换到“SHORT”，可能丢失数据
+ZWindow.cpp(72): warning C4244: “=”: 从“double”转换到“SHORT”，可能丢失数据
+ZWindow.cpp(73): warning C4244: “=”: 从“double”转换到“SHORT”，可能丢失数据
+  正在生成代码...
+cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+  LINK : 已指定 /LTCG，但不需要生成代码；从链接命令行中移除 /LTCG 以提高链接器性能
+  M2.vcxproj -> C:\外来文件\项目文件\一些小程序\M2\Release\M2.exe
+  M2.vcxproj -> C:\外来文件\项目文件\一些小程序\M2\Release\M2.pdb (Full PDB)

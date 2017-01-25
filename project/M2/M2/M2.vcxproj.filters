@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\View">
+      <UniqueIdentifier>{409bcfee-accf-4839-a82c-7d7e632a9eed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Controller">
+      <UniqueIdentifier>{49ffda10-a13b-44fc-bc70-ad7d5172a93a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Model">
+      <UniqueIdentifier>{ac8d8950-f028-41a8-9811-08121ff53d9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Base">
+      <UniqueIdentifier>{6889a206-7107-4e8a-8bc7-4f03c86508f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\View">
+      <UniqueIdentifier>{82ffcf44-555e-4903-a163-29ce33a3f4d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Controller">
+      <UniqueIdentifier>{56a8ef80-fc2b-4bb7-8cfc-44e623a185fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Model">
+      <UniqueIdentifier>{ee53fb95-f879-41f4-b94e-2e721e7e42da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Base">
+      <UniqueIdentifier>{9d406db0-8b81-4fd3-a88f-2bd1ae6f0179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Interface">
+      <UniqueIdentifier>{f1aa78f8-aea5-4ace-9263-89fd60a1e924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Interface">
+      <UniqueIdentifier>{ad8a930f-d191-47ef-bbdd-bf6a9f1a5dd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Others">
+      <UniqueIdentifier>{ca1c43c6-3b97-4390-a6db-445a1933a395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Exception">
+      <UniqueIdentifier>{07a787a5-798e-4873-b319-24b1fa0fae4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Exception">
+      <UniqueIdentifier>{78ea6696-242a-4a82-8b06-7a30aabd60dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xml">
+      <UniqueIdentifier>{2f3aa2d9-6ab5-4c10-96b4-b378ef267772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Others">
+      <UniqueIdentifier>{69a1a74b-a98a-490b-89c7-b25aa9e3cdad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZView.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuView.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="GameView.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="GameController.h">
+      <Filter>头文件\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="MainController.h">
+      <Filter>头文件\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuController.h">
+      <Filter>头文件\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>头文件\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="ZWindow.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowData.h">
+      <Filter>头文件\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuData.h">
+      <Filter>头文件\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData.h">
+      <Filter>头文件\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>头文件\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ZObject.h">
+      <Filter>头文件\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Others.h">
+      <Filter>头文件\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowDataSourceInterface.h">
+      <Filter>头文件\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ZException.h">
+      <Filter>头文件\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuDataSourceInterface.h">
+      <Filter>头文件\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuItemView.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuItemInterface.h">
+      <Filter>头文件\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\tinystr.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\tinyxml.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="EventInterface.h">
+      <Filter>头文件\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuSettingControllerDelegate.h">
+      <Filter>头文件\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="GameItemView.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSceneView.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Music.h">
+      <Filter>头文件\Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="M2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>源文件\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="GameController.cpp">
+      <Filter>源文件\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="MainController.cpp">
+      <Filter>源文件\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuController.cpp">
+      <Filter>源文件\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Data.cpp">
+      <Filter>源文件\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="GameData.cpp">
+      <Filter>源文件\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuData.cpp">
+      <Filter>源文件\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowData.cpp">
+      <Filter>源文件\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="GameView.cpp">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuView.cpp">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="ZWindow.cpp">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="ZView.cpp">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="ZObject.cpp">
+      <Filter>源文件\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ZException.cpp">
+      <Filter>源文件\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuItemView.cpp">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\tinystr.cpp">
+      <Filter>xml</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\tinyxml.cpp">
+      <Filter>xml</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\tinyxmlerror.cpp">
+      <Filter>xml</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\tinyxmlparser.cpp">
+      <Filter>xml</Filter>
+    </ClCompile>
+    <ClCompile Include="EventInterface.cpp">
+      <Filter>源文件\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Others.cpp">
+      <Filter>源文件\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="GameItemView.cpp">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSceneView.cpp">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="Music.cpp">
+      <Filter>源文件\Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
